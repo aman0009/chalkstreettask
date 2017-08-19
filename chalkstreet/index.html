@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sound Recorder</title>
+		<script src="src/recorder.js"></script>
+		<script src="src/Fr.voice.js"></script>
+    <script src="js/jquery.js"></script>
+		<script src="js/app.js"></script>
+		<link rel="stylesheet" type="text/css" href="cards.css">
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+	</head>
+	<body>
+	<audio controls id="audio"></audio>
+	<h1 align="center"> Let's do this </h1>
+
+		<textarea id="textArea"></textarea>
+		
+       <a class="waves-effect waves-light btn" id="createBtn">Add New Card</a>
+
+		<div id="displayCard"></div>
+
+
+		<script type="text/javascript" src="cards.js"></script>
+	</body>
+	<style>
+		.button{
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0px 5px;
+			padding: 5px 12px;
+			cursor: pointer;
+			outline: none;
+			font-size: 13px;
+			text-decoration: none !important;
+			text-align: center;
+			color:#fff;
+			background-color: #4D90FE;
+			background-image: linear-gradient(top,#4D90FE, #4787ED);
+			background-image: -ms-linear-gradient(top,#4D90FE, #4787ED);
+			background-image: -o-linear-gradient(top,#4D90FE, #4787ED);
+			background-image: linear-gradient(top,#4D90FE, #4787ED);
+			border: 1px solid #4787ED;
+			box-shadow: 0 1px 3px #BFBFBF;
+		}
+		a.button{
+			color: #fff;
+		}
+		.button:hover{
+			box-shadow: inset 0px 1px 1px #8C8C8C;
+		}
+		.button.disabled{
+			box-shadow:none;
+			opacity:0.7;
+		}
+    canvas{
+      display: block;
+    }
+		</style>
+</html>
