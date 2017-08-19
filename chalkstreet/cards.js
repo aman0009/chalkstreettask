@@ -7,9 +7,10 @@ var deleteBtn = document.getElementById("deleteBtn")
 create.addEventListener("click", cardMaker)
 
 function cardMaker () {
-	let makeCard = `<div class="newCard" id="${input.value}"> ${input.value} <a class="button recordButton" id="record">Record</a>
-      <a class="button disabled one" id="pause">Pause</a>
-      <a class="button disabled one" id="stop">Delete</a> <a class="button disabled one" id="play">Play</a> `
+	let makeCard = `<div class="newCard" id="${input.value}"> ${input.value} </br><a class="button recordButton" id="record">Record</a>
+      <a<i class="material-icons" class="button disabled one" id="pause">add</i>
+      <a class="button disabled one" id="stop">Delete</a> <a class="button disabled one" id="play">Play</a> 
+      `
 	let cardDiv = document.createElement("div");
 	cardDiv.innerHTML = makeCard;
 	output.appendChild(cardDiv);

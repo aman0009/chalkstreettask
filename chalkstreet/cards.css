@@ -1,21 +1,45 @@
 .newCard {
-	background-color: background: #8E0E00;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-color: #004d40;/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 ;
 	box-sizing: unset;
 	margin: 5px;
-	padding: 5px;
+	 padding: 5px 0px 0px 118px;
 	float: left;
-	width: 27%;
-	height: 150px;
+	width: 26%;
+	height: 235px;
 	border: 2px solid black;
 	 border-radius: 10px;
 }
-body{
-
-	background-color: background: #ee9ca7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-;
-}
+	.button{
+    background-color: #213;
+    border: 1px solid #4787ed;
+    box-shadow: 0 1px 3px #bfbfbf;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    margin: 65px 7px 0 8px;
+    outline: medium none;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+		}
+		a.button{
+			color: #fff;
+		}
+		.button:hover{
+			box-shadow: inset 0px 1px 1px #8C8C8C;
+		}
+		.button.disabled{
+			box-shadow:none;
+			opacity:0.7;
+		}
+    canvas{
+      display: block;
+    }
+		
+#audio
+{
+	position: center;
+}		
