@@ -1,0 +1,11 @@
+.newCard {
+	background-color: #004d40;
+	box-sizing: unset;
+	margin: 5px;
+	padding: 5px;
+	float: left;
+	width: 27%;
+	height: 150px;
+	border: 2px solid black;
+	 border-radius: 10px;
+}
